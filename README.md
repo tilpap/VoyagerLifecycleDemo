@@ -11,6 +11,7 @@ This does not happen if Voyager is not used (for example, use GreetingView and s
 Testing process:
 
 — Voyager usage with Home Screen —
+
 	1.	Run the app
 	2.	Open Logs
 	3.	Put the app in the background and back to the foreground
@@ -21,6 +22,7 @@ Testing process:
 	8.	See the logs. HomeScreen does not intercept ON_STOP, ON_PAUSE, or ON_RESUME events.
 
 — App without Voyager | Use GreetingView —
+
 	1.	Run the app
 	2.	Open Logs
 	3.	Put the app in the background and back to the foreground
